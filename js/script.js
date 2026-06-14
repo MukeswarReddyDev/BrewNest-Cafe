@@ -1,4 +1,4 @@
-// BrewNest Web App Interactivity Script
+// BrewNest Coffee Web App Interactivity Script
 
 document.addEventListener('DOMContentLoaded', () => {
   // --- STATE ---
@@ -402,7 +402,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btnCheckout.addEventListener('click', () => {
       // Simulate Order Success
       const grandTotal = cartGrandTotalEl.textContent;
-      alert(`Order Placed Successfully!\nTotal Paid: ${grandTotal}\nThank you for choosing BrewNest!`);
+      alert(`Order Placed Successfully!\nTotal Paid: ${grandTotal}\nThank you for choosing BrewNest Coffee!`);
       cart = [];
       currentCoupon = null;
       couponInput.value = '';
